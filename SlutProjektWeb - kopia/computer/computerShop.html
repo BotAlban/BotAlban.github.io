@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonsung-i</title>
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="../Phone/phoneShop.css">
+    <script src="../script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navHamburger">
+            <img src="../Bilder/menu.png" alt="hamburgermenu" class="menu" onclick="openNav()">
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="sideNavContent">
+                <hr>
+                <h3> Products</h3>
+                <a href="../index.html"> Home</a>
+                <a href="../Phone/phone.html">Phones</a>
+                <a href="../computer/computer.html">Computers</a>
+                <a href="#">Tv & Sound</a>
+                <a href="#">Accessories</a>
+                <hr>
+              </div>
+            </div>
+          </nav>
+        <a href="../index.html"> <img src="../Bilder/icon.webp" alt="icon" class="icon"> </a>
+        <nav class="navmenu">
+            <ul class="navList">
+                <li><a href="../Phone/phone.html"> Phones </a></li>
+                <li><a href="../computer/computer.html"> Computers </a></li>
+                <li><a href=""> Tv&Sound </a></li>
+                <li><a href=""> Accessories </a></li>
+            </ul>
+        </nav>
+        <div class="account">
+        <a href=""><img src="../Bilder/profile.png" alt="" class="profile"> </a>
+        <a href="..//cart.html"> <img src="../Bilder/shoppingcart.png" alt="" class="cart"> </a>
+        </div>
+    </header>
+<main>
+    <div class="container">
+        <div class="itemShowCase">
+            <div class="itemHeader"> 
+                print("Hello World")
+            </div>
+            <img src="../Bilder/computerProduct.png" alt="phone" class="showCaseImg">
+        </div>
+        
+        <div class="customization">
+            <div class="storage">
+                Choose storage space
+
+                <div class="buttonsContainer">
+                    <button id="button1" onclick="button(0)"> <div class="gb"> 500 gb </div>  <div class="price"> +0$</div></button> 
+                    <button id="button2" onclick="button(1)"> <div class="gb"> 1000 gb </div> <div class="price"> +98$ </div></button>  
+                    <button id="button3" onclick="button(2)"> <div class="gb"> 1500 gb </div> <div class="price"> +128€ </div></button>  
+                </div>
+            </div>
+
+            <div class="colour">
+                Choose the colour
+                <div class="colourContainer"> 
+                    <div class="colourButton" id="colour0" onclick="colourButton(0)"> </div>
+                    <div class="colourButton" id="colour1" onclick="colourButton(1)"> </div>
+                    <div class="colourButton" id="colour2" onclick="colourButton(2)"> </div>
+                    <div class="colourButton" id="colour3" onclick="colourButton(3)"> </div>
+                </div>
+            </div>
+            <div class="order" onclick="cartSave('bög')"> Add to cart </div>
+        </div>
+    </div>
+
+    <div class="spec">
+      <img src="../Bilder/computerProduct.png" class="phoneBottom">
+        <div class="specText"> Specifications</div> <br>
+        <span> System </span> <br> 
+        Model: XYZ Phone <br>
+        Operating System: Android 12 <br>
+        <span> Screen </span> <br>
+        Screen Size: 6.7 inches <br>
+        Screen Resolution: 1080 x 2400 pixels <br>
+        <span> Qwerty </span> <br>
+        Processor: Qualcomm Snapdragon 888 <br>
+        RAM: 8 GB <br> 
+        Storage: 128 GB <br>
+        <span> Camera </span> <br>
+        Camera: 64 MP main camera, 12 MP wide-angle camera, 5 MP macro camera <br>
+        Front Camera: 32 MP <br>
+        <span> Other </span> <br>
+        Battery Capacity: 5000 mAh <br>
+        Charging: Fast charging with support for 30W wireless charging <br>
+        Connectivity: 5G, Wi-Fi 6, Bluetooth 5.2, USB-C <br>
+        Other features: Fingerprint sensor, face recognition, IP68 water resistance <br> 
+        
+
+
+    </div>
+
+
+</main>
+
+
+<footer>
+    <div class="newsletter">
+      <h2>Newsletter</h2>
+      Sign up to get weekly updates on our cool products!<br>
+      <form action="https://formspree.io/f/mvoyavvy" method="post" target="_blank" >
+              
+        <input type=text name=email class="mail" placeholder="E-Mail">
+        <input type="submit" value="Sign Up" class="form">
+    </form>
+    </div>
+    
+    <div class="rightFoot"> 
+      <div class="textLinks">
+        <h2>Links</h2>
+        <a href="../aboutus.html">
+          About Us
+        </a> 
+        <br>
+        <a href="../policy.html">
+          Policy
+        </a>  
+        <br>
+        <a href="">
+          Terms of Use
+        </a>  
+
+      </div>
+      
+      <div class="contact">
+        <h2>
+          Contact
+        </h2>
+        Phone: +46793469920
+        <br>
+        Email: info@wonsungi.com
+        <br>
+        Adress: Wonsung Street 11
+        <br>
+      </div>
+    </div>
+
+    
+      
+  </footer>
+</body>

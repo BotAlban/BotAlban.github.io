@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonsung-i</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="cart.css">
+    <script src="script.js"></script>
+</head>
+<body onload="cart()">
+    <header>
+      <nav class="navHamburger">
+        <img src="Bilder/menu.png" alt="hamburgermenu" class="menu" onclick="openNav()">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="sideNavContent">
+            <hr>
+            <h3> Products</h3>
+            <a href="index.html"> Home</a>
+            <a href="Phone/phone.html">Phones</a>
+            <a href="#">Computers</a>
+            <a href="#">Tv & Sound</a>
+            <a href="#">Accessories</a>
+            <hr>
+          </div>
+        </div>
+      </nav>
+        <a href="index.html"> <img src="Bilder/icon.webp" alt="icon"  class="icon"> </a>
+        <nav class="navmenu">
+            <ul class="navList">
+                <li><a href="Phone/phone.html"> Phones </a></li>
+                <li><a href=""> Computers </a></li>
+                <li><a href=""> Tv&Sound </a></li>
+                <li><a href=""> Accessories </a></li>
+            </ul>
+        </nav>
+        <div class="account">
+        <a href=""><img src="Bilder/profile.png" alt="" class="profile"> </a>
+        <a href=""> <img src="Bilder/shoppingcart.png" alt="" class="cart"> </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1> My cart</h1>
+            <div class="catagories">
+                <div class="Item">
+                    <div class="header"> Item </div>
+                    <div class="item1" id="item"> Galaxy bög phone 54545  </div>
+                </div>
+
+                <div class="Price">
+                    <div class="header"> Price </div>
+                    <div class="price1" id="price"> 656$ </div>
+                </div>
+
+                <div class="Quantity">
+                    <div class="header"> Quantity </div>
+                    <div class="quanity1"> 1 </div>
+                </div>
+
+                <div class="Total">
+                    <div class="header"> Total </div>
+                    <div class="total1" id="price"> 656$ </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="total">
+
+        </div>
+    </main>
+
+
+
+
+
+    <footer>
+        <div class="newsletter">
+          <h2>Newsletter</h2>
+          Sign up to get weekly updates on our cool products!<br>
+          <form action="https://formspree.io/f/mvoyavvy" method="post" target="_blank" >
+              
+            <input type=text name=email class="mail" placeholder="E-Mail">
+            <input type="submit" value="Sign Up" class="form">
+        </form>
+        </div>
+        
+        <div class="rightFoot"> 
+          <div class="textLinks">
+            <h2>Links</h2>
+            <a href="aboutus.html">
+              About Us
+            </a> 
+            <br>
+            <a href="policy.html">
+              Policy
+            </a>  
+            <br>
+            <a href="">
+              Terms of Use
+            </a>  
+
+          </div>
+          
+          <div class="contact">
+            <h2>
+              Contact
+            </h2>
+            Phone: +46793469920
+            <br>
+            Email: info@wonsungi.com
+            <br>
+            Adress: Wonsung Street 11
+            <br>
+          </div>
+        </div>
+
+        
+          
+    </footer>
+</body> 

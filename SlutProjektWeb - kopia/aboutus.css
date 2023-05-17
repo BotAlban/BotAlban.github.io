@@ -1,0 +1,112 @@
+
+
+article{
+	width:85%;
+	margin:auto;
+}	
+
+.upper{
+	display:flex;
+	width:100%;
+	height:100%;
+	background-color:rgb(240,240,240);
+	padding:20px;
+	border-radius:15px;
+	max-width:1000px;
+	margin:auto;
+}	
+.topright{
+	width:60%;
+	background-image:url("../Bilder/office.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-left:30px;
+	border-radius:5px;
+}
+.lower{
+	display:flex;
+	height:100%;
+	background-color:rgb(240,240,240);
+	padding:20px;
+	border-radius:15px;
+	max-width:1000px;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:15px;
+	
+}	
+
+.botleft{
+	background-image:url("../Bilder/studio.jpg");
+	width:50%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:5px;
+}	
+
+.right{
+	padding:20px;
+	width:50%;
+}
+
+.vänster{
+	padding:px;
+	width:50%;
+}
+
+.printus{
+	text-align:right;
+	font-weight:bold;
+	width:100%;
+	margin:0;
+}
+
+a	{
+    text-decoration:none;
+	color:black;
+}
+
+h1{
+	margin-bottom:35px;
+	font-size:5vw;
+	font-weight:normal;
+	text-align:center;
+	
+}
+
+
+p{
+	margin-bottom:10px;
+}
+
+@media all and (max-width:995px){
+	.upper{
+		display:block;
+		height:100%;
+		max-width:600px;
+		margin:auto;
+	}
+	
+	.lower{
+		max-width:600px;
+		display:block;
+	}	
+	.vänster{
+		width:100%;
+	}	
+		
+		
+	.right{
+		width:100%;
+	}
+
+}
+
+@media all and (max-width:750px){
+		
+		
+	h1{
+		font-size: 30px;
+	}	
+}	
+
